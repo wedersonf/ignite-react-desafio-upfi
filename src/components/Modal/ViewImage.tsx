@@ -34,14 +34,14 @@ export function ModalViewImage({
         w="auto"
         my="auto"
         p={0}
-        maxW={900}
+        maxW={[ 300, 400, 900]}
       >
         <ModalBody
           p={0}
         >
           <Image
-            maxW={900}
             maxH={600}
+            maxW={[300, 400, 900]}
             src={imgUrl}
           />
         </ModalBody>
